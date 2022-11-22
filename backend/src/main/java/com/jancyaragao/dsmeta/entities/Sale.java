@@ -23,7 +23,7 @@ public class Sale {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String seller_name;
+    private String sellerName;
     private Integer visited;
     private Integer deals;
     private Double amount;
